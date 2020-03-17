@@ -13,7 +13,6 @@
 
               
               <div class="post-meta align-items-center text-left clearfix">
-                <figure class="author-figure mb-0 mr-3 float-left"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></figure>
                 <span class="d-inline-block mt-1"><?php echo $animes['autor'] ?></a></span>
               </div>
               
