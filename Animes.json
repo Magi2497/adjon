@@ -1,0 +1,144 @@
+{
+  "cotxes": [
+    {
+        "codi": "001",
+        "nombre": "Ahiru no sora",
+        "clase": "Spokon",
+        "descripcion": "",
+        "url": "images/AHIRU_NO_SORA.jpg"
+      },
+      {
+        "codi": "002",
+        "nombre": "Angel beats",
+        "clase": "Drama",
+        "descripcion": "",
+        "url": "images/ANGEL_BEATS.png"
+      },
+      {
+        "codi": "003",
+        "nombre": "Boku dake ga inai machi",
+        "clase": "Drama",
+        "descripcion": "",
+        "url": "images/BOKU_DAKE_GA_INAI_MACHI.jpg"
+      },
+      {
+        "codi": "004",
+        "nombre": "Boku no hero",
+        "clase": "Shonen",
+        "descripcion": "",
+        "url": "images/BOKU_NO_HERO.jpg"
+      },
+      {
+        "codi": "005",
+        "nombre": "Captain tsubasa",
+        "clase": "Spokon",
+        "descripcion": "",
+        "url": "images/CAPTAIN_TSUBASA.png"
+      },
+      {
+        "codi": "006",
+        "nombre": "Clannad",
+        "clase": "Drama",
+        "descripcion": "",
+        "url": "images/CLANNAD.jpg"
+      },
+      {
+        "codi": "007",
+        "nombre": "Devilman Cry",
+        "clase": "Seinen",
+        "descripcion": "",
+        "url": "images/DEVILMAN_CRY.jpg"
+      },
+      {
+        "codi": "008",
+        "nombre": "Full metal alchemist",
+        "clase": "Shonen",
+        "descripcion": "",
+        "url": "images/FULL_METAL.jpg"
+      },
+      {
+        "codi": "009",
+        "nombre": "Haikyuu",
+        "clase": "Spokon",
+        "descripcion": "",
+        "url": "images/HAIKYUU.jpg"
+      },
+      {
+        "codi": "010",
+        "nombre": "Kimetsu no yaiba",
+        "clase": "Seinen",
+        "descripcion": "",
+        "url": "images/KIMETSU_NO_YAIBA.jpg"
+      },
+      {
+        "codi": "011",
+        "nombre": "Kuroko no basket",
+        "clase": "Spokon",
+        "descripcion": "",
+        "url": "images/KUROKO_NO_BASKET.jpg"
+      },
+      {
+        "codi": "012",
+        "nombre": "Naruto",
+        "clase": "Spokon",
+        "descripcion": "",
+        "url": "images/NARUTO.png"
+      },
+      {
+        "codi": "013",
+        "nombre": "No game no life",
+        "clase": "Isekai",
+        "descripcion": "",
+        "url": "images/NO_GAME_NO_LIFE.jpg"
+      },
+      {
+        "codi": "014",
+        "nombre": "One Piece",
+        "clase": "Shonen",
+        "descripcion": "",
+        "url": "images/ONE_PIECE.jpg"
+      },
+      {
+        "codi": "015",
+        "nombre": "Overlord",
+        "clase": "Isekai",
+        "descripcion": "",
+        "url": "images/OVERLORD.jpg"
+      },
+      {
+        "codi": "016",
+        "nombre": "Re:zero",
+        "clase": "Isekai",
+        "descripcion": "",
+        "url": "images/RE_ZERO.jpg"
+      },
+      {
+        "codi": "017",
+        "nombre": "SAO",
+        "clase": "Isekai",
+        "descripcion": "",
+        "url": "images/ISEKAI.jpg"
+      },
+      {
+        "codi": "018",
+        "nombre": "Shingeki no kyojin",
+        "clase": "Seinen",
+        "descripcion": "",
+        "url": "images/SHINGEKI.jpg"
+      },
+      {
+        "codi": "019",
+        "nombre": "Yakusoku no neverland",
+        "clase": "Seinen",
+        "descripcion": "",
+        "url": "images/YAKUSOKU_NO_NEVERLAND.jpg"
+      },
+      {
+        "codi": "020",
+        "nombre": "Your Name",
+        "clase": "Drama",
+        "descripcion": "",
+        "url": "images/YOUR_NAME.jpg"
+      }
+  ]
+}
