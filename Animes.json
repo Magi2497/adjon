@@ -1,144 +1,455 @@
 {
-  "cotxes": [
+  "animes": [
     {
         "codi": "001",
         "nombre": "Ahiru no sora",
         "clase": "Spokon",
         "descripcion": "",
-        "url": "images/AHIRU_NO_SORA.jpg"
+        "url": "images/AHIRU_NO_SORA.jpg",
+        "estat": "Top de la semana",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!zfZy3QRI!K1O_LnAnup2Tih6Qs7GeHNsc_vWP1RkJ6Ghp9B8jqfk"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!aX5AGSiZ!kFRTOUT-6eqZ0CbVFfnirSIOZXnlM0urYaa2SgaUd1Y"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!OOI0HYRQ!bMd6pKyfZO7hyijF8o5Cv2_iUUo5BBOfJMl7QBSYZBg"
+          ]
+
+          ]
       },
       {
         "codi": "002",
         "nombre": "Angel beats",
         "clase": "Drama",
         "descripcion": "",
-        "url": "images/ANGEL_BEATS.png"
+        "url": "images/ANGEL_BEATS.png",
+        "estat": "Entera",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!3ihFjDAT!HraXRU8a9iWS2qiizbKdm1ZS_OM11RBXLctpCoDUbdQ"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!zYVF2YYB!6dd_XaeyStOMZVtMlv2L5MleeQPOJprze_NMYWhlvNI"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!eQsBCICS!y46Fz5IlJ6ZX7bXrptuarmUirTtZVvTWQG8CdHW0prk"
+          ]
+
+          ]
       },
       {
         "codi": "003",
         "nombre": "Boku dake ga inai machi",
         "clase": "Drama",
         "descripcion": "",
-        "url": "images/BOKU_DAKE_GA_INAI_MACHI.jpg"
+        "url": "images/BOKU_DAKE_GA_INAI_MACHI.jpg",
+        "estat": "Entera",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!6mhVCIYL!7T4PHzXrH8K5SDP_VwWipINQFIOH7Ormkidy3oXaM0g"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!6ngDFA5B!L0YYLaBRGP06yPTGIJuOqAQk9Iu9SXHsbBM_oGEl_Uc"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!n6olWYgY!UcdEfPJwQlArMiJhQjA9H9MbtAe5NfMmLk412dhf9rQ"
+          ]
+
+          ]
       },
       {
         "codi": "004",
         "nombre": "Boku no hero",
         "clase": "Shonen",
         "descripcion": "",
-        "url": "images/BOKU_NO_HERO.jpg"
+        "url": "images/BOKU_NO_HERO.jpg",
+        "estat": "Top de la semana",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!WpkFRDRC!qmNnAtz2nHwf2QjS_Vo5IlMShMI-07ClaSLF05lY9vc"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!qbxyBIrD!qDHEiVTF3Xuxo28uHvu3rpu3ju8uiEjFWw2-yiSbVhQ"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!TXxCRYqa!s_DzJU8nPQTUo2UaTNoMypLO6mYpw1-9PFOgKMiVk84"
+          ]
+
+          ]
       },
       {
         "codi": "005",
         "nombre": "Captain tsubasa",
         "clase": "Spokon",
         "descripcion": "",
-        "url": "images/CAPTAIN_TSUBASA.png"
+        "url": "images/CAPTAIN_TSUBASA.png",
+        "estat": "Entera",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!maITwYpK!b4yTVWF30WAlzcniSxM1AHeZ7EAHGsTRSmDTWrl9Nv0"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!aWZTRSzZ!XmaWC1ewe1MisrXt-n2Snx0lsfDyAgcYF8o3v4LwQBE"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!7CRh0YRQ!I8Uc2FhgslVsnIrsaElizE2ofL2ERw8eaHp1CSe5RFE"
+          ]
+
+          ]
       },
       {
         "codi": "006",
         "nombre": "Clannad",
         "clase": "Drama",
         "descripcion": "",
-        "url": "images/CLANNAD.jpg"
+        "url": "images/CLANNAD.jpg",
+        "estat": "Entera",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!fzBHxSAI!3ZYY_acrUPARJtOz_UsZaTMWzPhghUspyrYxIWn9pa8"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!XnJ3mCbQ!dlAMN-GPITcVZ2NtT4BKY2MSO2MSQ34ti4zZAmrN8gQ"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!KnYBUSyL!7tTTQ7eAnq3388GePfxt9XkxKMLfTdU-2WSM3mkFu0Q"
+          ]
+
+          ]
       },
       {
         "codi": "007",
-        "nombre": "Devilman Cry",
+        "nombre": "Psycho-pass",
         "clase": "Seinen",
         "descripcion": "",
-        "url": "images/DEVILMAN_CRY.jpg"
+        "url": "images/PSYCHO_PASS.jpg",
+        "estat": "Entera",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!XNQAGAKC!tZ7hR0y7xwITEoiZvGZZbSGyGSEg_dINdeM1MXK9JD4"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!TJAikC6J!72KQdpDm723smjbeHMwFaCnQLxsJ2THc3oVMRiB6avI"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!icAgCI4S!lgNmIBOqG0WiZ1zIfuCNPGPcAEBtKwMQ7bDKUuBnCSc"
+          ]
+
+          ]
       },
       {
         "codi": "008",
         "nombre": "Full metal alchemist",
         "clase": "Shonen",
         "descripcion": "",
-        "url": "images/FULL_METAL.jpg"
+        "url": "images/FULL_METAL.jpg",
+        "estat": "Entera",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!qfoFSCJJ!AKfYPgCnePpLmJCTJ_6cVwDPAewAjIDbS99N3Ccvyqo"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!GGJSTTSZ!AH8k4gD46XW4GFiMD8moTQBADO4AImbzuBiwVg8on8M"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!DXYxULzB!ALGMNgCcE6QxhSzP0XPebgA39WIABNixMfZJn9EBswg"
+          ]
+
+          ]
       },
       {
         "codi": "009",
         "nombre": "Haikyuu",
         "clase": "Spokon",
         "descripcion": "",
-        "url": "images/HAIKYUU.jpg"
+        "url": "images/HAIKYUU.jpg",
+        "estat": "4 Temporadas",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!bGhwnJbR!AB16GQCwwwALHUVrc5RVqwDeMxYAjoKFC3szN3OzJG0"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!iB5lTCqD!XwGidf0fdQ9IUHpJv_1LZDNHTkaY-V9fho9xrQLQ0wk"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!yMpnGAqb!y_0AL4vgLoRwrwfwGQI_hFaa0Np6-nOEb2nEzIChcVk"
+          ]
+
+          ]
       },
       {
         "codi": "010",
         "nombre": "Kimetsu no yaiba",
         "clase": "Seinen",
         "descripcion": "",
-        "url": "images/KIMETSU_NO_YAIBA.jpg"
+        "url": "images/KIMETSU_NO_YAIBA.jpg",
+        "estat": "1 Temporada",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!eKgiXIiC!Oj6UdTgHNtyhe47BbCgvWCLnyks2nSAFr9g1lgax3bk"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!uGRiwQJA!-CDLbiHy3FsVK0M_KtX3ALg12KW9hEpctSrxxSOZvCo"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!fLQAwAZY!1Hx6wuCxZZNbXh9K81bOmEfepPlRhzRx4r7O3U0hVOs"
+          ]
+
+          ]
       },
       {
         "codi": "011",
         "nombre": "Kuroko no basket",
         "clase": "Spokon",
         "descripcion": "",
-        "url": "images/KUROKO_NO_BASKET.jpg"
+        "url": "images/KUROKO_NO_BASKET.jpg",
+        "estat": "Entera",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!L3A1kQRR!o9uLf4qS4Cwe7O9L8-cRDAOb48qAKe8BsH6QyjK8rz8"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!OrIlHAoK!isc-S2o-BMPBbEBGMMQ6Ycavqu4dOXosZ1zX4rpwy9s"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!3yZBAADJ!TKZ3A-yYIY8EukimbtGKaMSXNDq3oLHNck7ClcaFnHo"
+          ]
+
+          ]
       },
       {
         "codi": "012",
         "nombre": "Naruto",
         "clase": "Spokon",
         "descripcion": "",
-        "url": "images/NARUTO.png"
+        "url": "images/NARUTO.png",
+        "estat": "Entera",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!PyohVayL!AMsW8gAY6365GVEzlr_B3QCXKzAAhHUwuTHDj5ZSg9s"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!fyZ0jQqR!AM330wA2I0ZsIRqHoj5-eQAlR9QAgE0ubD7FzqJNRdc"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!X6AzGJyL!AEPeTQCY6x0qiCjmxXDNtwCbkR4AYUL8Ko7ahcUrbJs"
+          ]
+
+          ]
       },
       {
         "codi": "013",
         "nombre": "No game no life",
         "clase": "Isekai",
         "descripcion": "",
-        "url": "images/NO_GAME_NO_LIFE.jpg"
+        "url": "images/NO_GAME_NO_LIFE.jpg",
+        "estat": "1 Temporada",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!LEBXnaAQ!cjDl5e0akYK32Q1FjeZco_tlkD1nooku-ELDY3Y-PJY"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!TFBzFSyY!yuKRxS63JqviX3Ow2YaB_mcTD4Pwj3I5af-j0f2yybA"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!HRJVQCoT!GivK34GePWD3gZAwNSRy4W0JrfH4A8W9VKSAOqb5iEc"
+          ]
+
+          ]
       },
       {
         "codi": "014",
         "nombre": "One Piece",
         "clase": "Shonen",
         "descripcion": "",
-        "url": "images/ONE_PIECE.jpg"
+        "url": "images/ONE_PIECE.jpg",
+        "estat": "En emisión",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!X3wClbDY!AM-JHQB2bYPZpfPP39RyFABtUzUA6jjo2e1l5t_V50U"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!Sr5yDbQT!AMguFwDkAzDfVrlseJQovgCfCzsAQHd-34wA_3jf434"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!O2x0kQDL!AJvQcgADG-FOxcPEKgpVRgDEPTEAMhsiTn-CFyo7mj4"
+          ]
+
+          ]
       },
       {
         "codi": "015",
         "nombre": "Overlord",
         "clase": "Isekai",
         "descripcion": "",
-        "url": "images/OVERLORD.jpg"
+        "url": "images/OVERLORD.jpg",
+        "estat": "3 Temporadas",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!6aIhhK4Z!dHUtEZ9ToUAr19_vjyEJt7qTqNhGjwxKaAxRNk4cZ6Q"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!qbYFmQbS!eoQcmt2cZsgjW9vtOABQJYfjctB2B_hAVgCMX2oh2yg"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!HeJRWCiR!Jx1wUnzEma6F5f67aVeu1Y6WkieSyuSb1DjvJB4-7hE"
+          ]
+
+          ]
       },
       {
         "codi": "016",
         "nombre": "Re:zero",
         "clase": "Isekai",
         "descripcion": "",
-        "url": "images/RE_ZERO.jpg"
+        "url": "images/RE_ZERO.jpg",
+        "estat": "1 Temporada",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!c41DTIZJ!n8cx1kj_7BgKIckefWKH6Dlck7PrMbLC6xf6LoAQWBI"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!490lhIiR!NvtbmGdsG0y16HKEZ9zOfZYj-qHtM4uWVw4y9yU7edM"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!c8tF1KYB!nxf1X-UXp5BZ0d7ldWA7k2cplZEgk49lVuMPWMsPDOQ"
+          ]
+
+          ]
       },
       {
         "codi": "017",
         "nombre": "SAO",
         "clase": "Isekai",
         "descripcion": "",
-        "url": "images/ISEKAI.jpg"
+        "url": "images/SAO.jpg",
+        "estat": "Top de la semana",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!2NknhY7L!LNf6KSSicZ7RmjZ_tQiRbCd2MlwkAPm2yh3MLzH3XW4"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!RbJknCBS!TUxOpSd2nMeZxZKDbxf0Gi2ePGcY2rOE7JyCiGwGS-k"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!rZsFWCaQ!S9Sb6fgK7xTmP6aQ80jXnwW4-uI0Lr8FIWDet7dJoEo"
+          ]
+
+          ]
       },
       {
         "codi": "018",
         "nombre": "Shingeki no kyojin",
         "clase": "Seinen",
         "descripcion": "",
-        "url": "images/SHINGEKI.jpg"
+        "url": "images/SHINGEKI.jpg",
+        "estat": "4 Temporadas",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!bLIn2JTY!ALGdmQAzTXMOGKoTENGJtgAJDlEA0aZGDrjMuxDVbtc"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!mJxnEShI!MmXrUmzNPHM62sPyBiF1E8YO-qpJ7tEdlO5Q_-XXwkg"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!iIoRTYxI!HxblwobX-UnJEXBjJu1U_bHSUjw3YZyjsktC5Bi-Xvo"
+          ]
+
+          ]
       },
       {
         "codi": "019",
         "nombre": "Yakusoku no neverland",
         "clase": "Seinen",
         "descripcion": "",
-        "url": "images/YAKUSOKU_NO_NEVERLAND.jpg"
+        "url": "images/YAKUSOKU_NO_NEVERLAND.jpg",
+        "estat": "1 Temporada",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!SCpRnLLR!goMhIAkJhcb8-U3XSDQU6bzgstWsSMjpDbwoB17KqOs"
+          ],
+          [
+            "2",
+            "https://mega.nz/#!He4DDDaY!JbcrqtgCiQc69_XG9Z4RkZ3mlWY6Zepzg8DnuQEpkKM"
+          ],
+          [
+            "3",
+            "https://mega.nz/#!vLhxABib!vdcQIa1Kz-ZmAzVGnfLsFGTj4abqS0oLQ9179mD8VCw"
+          ]
+
+          ]
       },
       {
         "codi": "020",
         "nombre": "Your Name",
         "clase": "Drama",
         "descripcion": "",
-        "url": "images/YOUR_NAME.jpg"
+        "url": "images/YOUR_NAME.jpg",
+        "estat": "Pelicula",
+        "episodios": [
+          [
+            "1",
+            "https://mega.nz/#!vnhDSabb!mngqeBtzdEvIyYmRBvD7vgZpAukU1hoHm4oe9uAFQdk"
+          ]
+        ]
       }
   ]
 }
