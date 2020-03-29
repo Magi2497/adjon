@@ -41,7 +41,7 @@
           </div>
 
           <div class="col-4 site-logo">
-            <a href="index.html" class="text-black h2 mb-0">ADJON</a>
+            <a href="index.php" class="text-black h2 mb-0">ADJON</a>
           </div>
 
           <div class="col-8 text-right">
@@ -50,7 +50,7 @@
                 <li>   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   GENERO
                 </a><div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Isekai</a>
+                  <a class="dropdown-item" href="ficha_genere.php">Isekai</a>
                   <a class="dropdown-item" href="#">Drama</a>
                   <a class="dropdown-item" href="#">Seinen</a>
                   <a class="dropdown-item" href="#">Shonen</a>

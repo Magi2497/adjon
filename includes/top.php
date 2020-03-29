@@ -32,15 +32,42 @@ ini_set("display_errors", 1);
      $genero = $row['genero'];
      $descripcion = $row['descrpipcion'];
      $img = $row['img'];
+    
+
+ if ($genero == 'isekai'){
+
+  $color =  'bg-success';
+  }
+
+  elseif ($genero == 'seinen'){
+
+  $color =  'bg-danger';
+  }
+
+  elseif ($genero == 'drama'){
+
+  $color =  'bg-secondary';
+  }
+
+  elseif ($genero == 'shonen'){
+
+    $color =  'bg-primary';
+    }
+
+    else{
+
+      $color =  'bg-warning';
+      }
+
   ?>  
     
           <div class="col-lg-4 mb-4">
             <div class="entry2">
-                  <a href="single.html"><img src="<?php echo $img?>" alt="Image" class="img-fluid rounded"></a>
+                  <a href="fichas.php"><img src="<?php echo $img?>" alt="Image" class="img-fluid rounded"></a>
                   <div class="excerpt">
-                    <span class="post-category text-white bg-secondary mb-3"><?php echo $genero ?></span>
+                    <span class="post-category text-white <?php echo $color?> mb-3"><?php echo $genero ?></span>
 
-                    <h2><a href=><?php echo $nom ?></a></h2>
+                    <h2><a><?php echo $nom ?></a></h2>
                   <div class="post-meta align-items-center text-left clearfix">
 
   
