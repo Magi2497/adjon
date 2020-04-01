@@ -89,7 +89,9 @@ elseif ($genero == 'shonen'){
               </div>
               
                 <p><?php echo $descripcion ?> </p>
-                <?php  $stm = $db->prepare("SELECT * FROM episodios where uuid=?");
+                <?php  
+                  $stm = $db->prepare("SELECT * FROM episodios where uuid like ?");
+                  $uuid= $uuid."%";
                   $stm->bindParam(1, $uuid);
                   $res = $stm->execute();
                 
@@ -99,8 +101,7 @@ elseif ($genero == 'shonen'){
                     $num = $row['num'];
                     $url = $row['url'];
                    
-               echo  $nom.' '.  $num.' '. ' <a href="'.$url.'" target = "_blank"> ver episodio </a> <br>'; 
-                   
+               echo  $nom.' '.  $num.' '. ' <a href="'.$url.'" target = "_blank"> ver episodio</a> <br>';
                  }
                 ?>
 
