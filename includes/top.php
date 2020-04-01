@@ -34,30 +34,7 @@ ini_set("display_errors", 1);
      $img = $row['img'];
     
 
- if ($genero == 'isekai'){
-
-  $color =  'bg-success';
-  }
-
-  elseif ($genero == 'seinen'){
-
-  $color =  'bg-danger';
-  }
-
-  elseif ($genero == 'drama'){
-
-  $color =  'bg-secondary';
-  }
-
-  elseif ($genero == 'shonen'){
-
-    $color =  'bg-primary';
-    }
-
-    else{
-
-      $color =  'bg-warning';
-      }
+     $color = color_genero($genero);
 
   ?>  
      
