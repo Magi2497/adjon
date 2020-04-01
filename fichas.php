@@ -18,10 +18,19 @@ ini_set("display_errors", 1);
 
 ?>
 <?php
+
+ 
+  $nom = 'not found';
+  $uuid = 'not found'; 
+  $genero = 'not found';
+  $descripcion = 'not found';
+  $img = 'not found';
+
+
  if (isset($_GET['id'])){
   $id = $_GET['id'];
   $db = new Sqlite3('animes.db');
-  $stm = $db->prepare("SELECT * FROM animes where id='4'");
+  $stm = $db->prepare("SELECT * FROM animes where uuid=?");
   $stm->bindParam(1, $id);
  
   $res = $stm->execute();
@@ -30,47 +39,42 @@ ini_set("display_errors", 1);
      $nom = $row['nombre'];
      $uuid = $row['uuid']; 
      $genero = $row['genero'];
-     $descripcion = $row['descrpipcion'];
+     $descripcion = $row['descripcion'];
      $img = $row['img'];
 
-     if ($genero == 'isekai'){
-
-      $color =  'bg-success';
-      }
     
-      elseif ($genero == 'seinen'){
-    
-      $color =  'bg-danger';
-      }
-    
-      elseif ($genero == 'drama'){
-    
-      $color =  'bg-secondary';
-      }
-    
-      elseif ($genero == 'shonen'){
-    
-        $color =  'bg-primary';
-        }
-    
-        else{
-    
-          $color =  'bg-warning';
-          }
   }
 
 }
-  else {
-    $nom = 'not found';
-    $uuid = 'not found'; 
-    $genero = 'not found';
-    $descripcion = 'not found';
-    $img = 'not found';
+  
 
+
+
+ if ($genero == 'isekai'){
+
+$color =  'bg-success';
+}
+
+elseif ($genero == 'seinen'){
+
+$color =  'bg-danger';
+}
+
+elseif ($genero == 'drama'){
+
+$color =  'bg-secondary';
+}
+
+elseif ($genero == 'shonen'){
+
+  $color =  'bg-primary';
   }
-?>
 
+  else{
 
+    $color =  'bg-warning';
+    }
+    ?>
 <div class="col-lg-4 mb-4">
             <div class="entry2">
               <a href=""><img src="<?php echo $img?>"></a>
@@ -85,7 +89,21 @@ ini_set("display_errors", 1);
               </div>
               
                 <p><?php echo $descripcion ?> </p>
+                <?php  $stm = $db->prepare("SELECT * FROM episodios where uuid=?");
+                  $stm->bindParam(1, $uuid);
+                  $res = $stm->execute();
                 
+                  while ($row = $res->fetchArray()) {
+                    $nom = $row['nom'];
+                    $uuid = $row['uuid']; 
+                    $num = $row['num'];
+                    $url = $row['url'];
+                   
+               echo  $nom.' '.  $num.' '. ' <a href="'.$url.'" target = "_blank"> ver episodio </a> <br>'; 
+                   
+                 }
+                ?>
+
               </div>
             </div>
           </div>

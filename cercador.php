@@ -23,48 +23,54 @@ ini_set("display_errors", 1);
        
 <?php        
 
-if (isset($_GET['genero'])){
-  $genero = $_GET['genero'];}
+if (isset($_GET['q'])){
+  $q = $_GET['q'];}
   
   else {
-    $genero = 'isekai';
+    $q = '';
  }
  
- if ($genero == 'isekai'){
-    
-  $color =  'bg-success';
-  }
-
-  elseif ($genero == 'seinen'){
- 
-  $color =  'bg-danger';
-  }
-
-  elseif ($genero == 'drama'){
-  
-  $color =  'bg-secondary';
-  }
-
-  elseif ($genero == 'shonen'){
-    
-    $color =  'bg-primary';
-    }
-
-    else{
-
-      $color =  'bg-warning';
-      }
+ $q = "%".$q."%";
   $db = new Sqlite3('animes.db');
-  $stm = $db->prepare("SELECT * FROM animes where genero=?");
-  $stm->bindParam(1, $genero);
+  $stm = $db->prepare("SELECT * FROM animes where descripcion like ? OR nombre like ?");
+  $stm->bindParam(1, $q);
+  $stm->bindParam(2, $q);
   $res = $stm->execute();
 
 
   while ($row = $res->fetchArray()) {
      $nom = $row['nombre'];
      $uuid = $row['uuid']; 
+     $genero = $row['genero']; 
      $descripcion = $row['descripcion'];
      $img = $row['img'];
+     
+     
+     
+     if ($genero == 'isekai'){
+    
+        $color =  'bg-success';
+        }
+
+     elseif ($genero == 'seinen'){
+    
+        $color =  'bg-danger';
+        }
+
+     elseif ($genero == 'drama'){
+  
+        $color =  'bg-secondary';
+        }
+
+     elseif ($genero == 'shonen'){
+    
+        $color =  'bg-primary';
+        }
+
+     else{
+
+        $color =  'bg-warning';
+        }
 ?>
      
     
