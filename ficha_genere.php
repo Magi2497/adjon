@@ -3,7 +3,7 @@
 <head>
 <title>Ficha animes</title>
 <?php include "includes/navbar.php"?>
-
+<?php include "includes/utils.php"?>
 </head>
 <body>
 <?php
@@ -29,37 +29,13 @@ if (isset($_GET['genero'])){
   else {
     $genero = 'isekai';
  }
- 
- if ($genero == 'isekai'){
-    
-  $color =  'bg-success';
-  }
-
-  elseif ($genero == 'seinen'){
- 
-  $color =  'bg-danger';
-  }
-
-  elseif ($genero == 'drama'){
-  
-  $color =  'bg-secondary';
-  }
-
-  elseif ($genero == 'shonen'){
-    
-    $color =  'bg-primary';
-    }
-
-    else{
-
-      $color =  'bg-warning';
-      }
   $db = new Sqlite3('animes.db');
   $stm = $db->prepare("SELECT * FROM animes where genero=?");
   $stm->bindParam(1, $genero);
   $res = $stm->execute();
 
 
+  $color = color_genero($genero);
   while ($row = $res->fetchArray()) {
      $nom = $row['nombre'];
      $uuid = $row['uuid']; 

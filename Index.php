@@ -2,10 +2,10 @@
 <html>
 <head>
 <title>Ficha animes</title>
-
-<?php include "includes/navbar.php"?>
+<?php include "includes/utils.php"?>
 </head>
 <body>
+<?php include "includes/navbar.php"?>
 <?php
 
 ini_set('display_errors', 1);

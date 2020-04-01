@@ -4,6 +4,7 @@
 <title>Ficha animes</title>
 
 <?php include "includes/navbar.php"?>
+<?php include "includes/utils.php"?>
 </head>
 <body>
 <?php
@@ -47,33 +48,7 @@ ini_set("display_errors", 1);
 
 }
   
-
-
-
- if ($genero == 'isekai'){
-
-$color =  'bg-success';
-}
-
-elseif ($genero == 'seinen'){
-
-$color =  'bg-danger';
-}
-
-elseif ($genero == 'drama'){
-
-$color =  'bg-secondary';
-}
-
-elseif ($genero == 'shonen'){
-
-  $color =  'bg-primary';
-  }
-
-  else{
-
-    $color =  'bg-warning';
-    }
+$color = color_genero($genero);
     ?>
 <div class="col-lg-4 mb-4">
             <div class="entry2">
@@ -89,9 +64,7 @@ elseif ($genero == 'shonen'){
               </div>
               
                 <p><?php echo $descripcion ?> </p>
-                <?php  
-                  $stm = $db->prepare("SELECT * FROM episodios where uuid like ?");
-                  $uuid= $uuid."%";
+                <?php  $stm = $db->prepare("SELECT * FROM episodios where uuid=?");
                   $stm->bindParam(1, $uuid);
                   $res = $stm->execute();
                 
@@ -101,7 +74,8 @@ elseif ($genero == 'shonen'){
                     $num = $row['num'];
                     $url = $row['url'];
                    
-               echo  $nom.' '.  $num.' '. ' <a href="'.$url.'" target = "_blank"> ver episodio</a> <br>';
+               echo  $nom.' '.  $num.' '. ' <a href="'.$url.'" target = "_blank"> ver episodio </a> <br>'; 
+                   
                  }
                 ?>
 
