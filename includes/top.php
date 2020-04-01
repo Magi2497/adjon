@@ -30,7 +30,7 @@ ini_set("display_errors", 1);
      $nom = $row['nombre'];
      $uuid = $row['uuid']; 
      $genero = $row['genero'];
-     $descripcion = $row['descrpipcion'];
+     $descripcion = $row['descripcion'];
      $img = $row['img'];
     
 
@@ -60,10 +60,10 @@ ini_set("display_errors", 1);
       }
 
   ?>  
-    
+     
           <div class="col-lg-4 mb-4">
             <div class="entry2">
-                  <a href="fichas.php"><img src="<?php echo $img?>" alt="Image" class="img-fluid rounded"></a>
+                  <a href="fichas.php?id=<?php echo $uuid ?>"><img src="<?php echo $img?>" alt="Image" class="img-fluid rounded"></a>
                   <div class="excerpt">
                     <span class="post-category text-white <?php echo $color?> mb-3"><?php echo $genero ?></span>
 

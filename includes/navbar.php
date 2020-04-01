@@ -34,8 +34,8 @@
         <div class="row align-items-center">
           
           <div class="col-12 search-form-wrap js-search-form">
-            <form method="get" action="#">
-              <input type="text" id="s" class="form-control" placeholder="Search...">
+            <form method="get" action="cercador.php?q=">
+              <input type="text" name = "q" id="d" class="form-control" placeholder="Search...">
               <button class="search-btn" type="submit"><span class="icon-search"></span></button>
             </form>
           </div>
@@ -50,11 +50,11 @@
                 <li>   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   GENERO
                 </a><div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="ficha_genere.php">Isekai</a>
-                  <a class="dropdown-item" href="#">Drama</a>
-                  <a class="dropdown-item" href="#">Seinen</a>
-                  <a class="dropdown-item" href="#">Shonen</a>
-                  <a class="dropdown-item" href="#">Spokon</a>
+                  <a class="dropdown-item" href="ficha_genere.php?genero=isekai">Isekai</a>
+                  <a class="dropdown-item" href="ficha_genere.php?genero=drama">Drama</a>
+                  <a class="dropdown-item" href="ficha_genere.php?genero=seinen">Seinen</a>
+                  <a class="dropdown-item" href="ficha_genere.php?genero=shonen">Shonen</a>
+                  <a class="dropdown-item" href="ficha_genere.php?genero=spokon">Spokon</a>
                 </div></li>
                 <li><a href="category.html">XXX</a></li>
                 <li><a href="category.html">XXX</a></li>

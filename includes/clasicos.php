@@ -12,7 +12,7 @@
        $nom = $row['nombre'];
        $uuid = $row['uuid']; 
        $genero = $row['genero'];
-       $descripcion = $row['descrpipcion'];
+       $descripcion = $row['descripcion'];
        $img = $row['img'];
        $i = $i+1;
        if ($i == 1){
@@ -72,14 +72,14 @@
       echo "<div class=".'"'.$col.'"'.">\n";
     }
     ?>
-      <a href="fichas.php" class="<?php echo $class ?>" style="background-image: url('<?php echo $img ?>');">
+      <a href="fichas.php?id=<?php echo $uuid ?>" class="<?php echo $class ?>" style="background-image: url('<?php echo $img ?>');">
                 
         <div class="text">
           <div class="post-categories mb-3">
             <span class="post-category <?php echo $color?>"><?php echo $genero ?></span>
           </div>
             <h2><?php echo $nom ?></h2>
-        </div>
+        </div >
       </a>
       <?php echo $tancament; ?>
     

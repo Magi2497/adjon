@@ -2,7 +2,7 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-md-4">
-            <h3 class="footer-heading mb-4">Sobre nosotros</h3>
+            <h3 class="footer-heºading mb-4">Sobre nosotros</h3>
             <p>Somos un grupo de compañeros de clase con la intencion de crear una web sobre animes</p>
           </div>
           <div class="col-md-3 ml-auto">
