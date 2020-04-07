@@ -50,21 +50,24 @@ ini_set("display_errors", 1);
   
 $color = color_genero($genero);
     ?>
-<div class="col-lg-4 mb-4">
-            <div class="entry2">
-              <a href=""><img src="<?php echo $img?>"></a>
-              <div class="excerpt">
-                
-              <h2><a href="single.html"><?php echo $nom?></a></h2>
-              <span class="post-category text-white <?php echo $color ?> mb-3"> <?php echo $genero ?></span>
+<div class="col-lg-4 mb-4">   
 
-              
+            <div class="entry2">
+              <h2><a href="single.html"><?php echo $nom?></a></h2>
+              <a href=""><img src="<?php echo $img?>"></a>
+        
+
+            <div class="excerpt">
+                 <span class="post-category text-white <?php echo $color ?> mb-3"> <?php echo $genero ?></span>
+           
+
               <div class="post-meta align-items-center text-left clearfix">
-                <span class="d-inline-block mt-1"></a></span>
-              </div>
               
-                <p><?php echo $descripcion ?> </p>
-                <?php  $stm = $db->prepare("SELECT * FROM episodios where uuid=?");
+               <span class="d-inline-block mt-1"></a></span>
+              </div>
+               <p><?php echo $descripcion ?></p> 
+                <?php  $stm = $db->prepare("SELECT * FROM episodios where uuid like ?");
+                  $uuid= $uuid."%";
                   $stm->bindParam(1, $uuid);
                   $res = $stm->execute();
                 
@@ -74,7 +77,7 @@ $color = color_genero($genero);
                     $num = $row['num'];
                     $url = $row['url'];
                    
-               echo  $nom.' '.  $num.' '. ' <a href="'.$url.'" target = "_blank"> ver episodio </a> <br>'; 
+               echo  $num.' '.  $nom.' '. ' <a href="'.$url.'" target = "_blank"> ver episodio </a> <br>'; 
                    
                  }
                 ?>
