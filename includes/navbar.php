@@ -56,11 +56,6 @@
                   <a class="dropdown-item" href="ficha_genere.php?genero=shonen">Shonen</a>
                   <a class="dropdown-item" href="ficha_genere.php?genero=spokon">Spokon</a>
                 </div></li>
-                <li><a href="category.html">XXX</a></li>
-                <li><a href="category.html">XXX</a></li>
-                <li><a href="category.html">XXX</a></li>
-                <li><a href="category.html">XXX</a></li>
-                <li><a href="category.html">XXX</a></li>
                 <li class="d-none d-lg-inline-block"><a href="#" class="js-search-toggle"><span class="icon-search"></span></a></li>
               </ul>
             </nav>
