@@ -7,9 +7,9 @@
           </div>
           <div class="col-md-3 ml-auto">
             <ul class="list-unstyled float-left mr-5">
-              <li><a href="#">Quienes somos</a></li>
-              <li><a href="#">Contacto</a></li>
-              <li><a href="#">Apoyanos</a></li>
+              <li><a href="nosotros.php">Quienes somos</a></li>
+              <li><a href="atencion_cliente.php">Contacto</a></li>
+              
             </ul>
           </div>
           <div class="col-md-4">
