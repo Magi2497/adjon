@@ -58,13 +58,29 @@ $color = color_genero($genero);
             <h2><a href="single.html"><?php echo $nom?></a><span class="post-category text-white <?php echo $color ?> mb-3"> <?php echo $genero ?></span></h2>
           </div>
         </div>
-        <div class="col-lg-3 mb-3">   
+        <div class="col-lg-4 mb-4">   
 
             <div class="entry2">
               
               <a href=""><img class="img-ficha" src="<?php echo $img?>"></a>
-        
-
+              <div>
+                <?php echo  '<h5>Lista de episodios</h5>';
+                $stm = $db->prepare("SELECT * FROM episodios where uuid like ?");
+                $uuid= $uuid."%";
+                $stm->bindParam(1, $uuid);
+                $res = $stm->execute();
+            
+                while ($row = $res->fetchArray()) {
+                  $nom = $row['nom'];
+                  $uuid = $row['uuid']; 
+                  $num = $row['num'];
+                  $url = $row['url'];
+                
+                  echo  $num.' '.  $nom.' '. ' <input class="boton" type="submit" name="grabar" value =""><a href="'.$url.'" target = "_blank"></a> <br>'; 
+                
+                }
+                ?>
+              </div>
               <div class="excerpt">
                  
            
@@ -77,23 +93,10 @@ $color = color_genero($genero);
             </div>
         </div>
         <div class="col-lg-5 mb-5 descripcion">
-            <p><?php echo $descripcion ?></p> 
-            <?php  $stm = $db->prepare("SELECT * FROM episodios where uuid like ?");
-              $uuid= $uuid."%";
-              $stm->bindParam(1, $uuid);
-              $res = $stm->execute();
-            
-              while ($row = $res->fetchArray()) {
-                $nom = $row['nom'];
-                $uuid = $row['uuid']; 
-                $num = $row['num'];
-                $url = $row['url'];
-                
-            echo  $num.' '.  $nom.' '. ' <a href="'.$url.'" target = "_blank"> ver episodio </a> <br>'; 
-                
-              }
-            ?>
-
+          <?php 
+          echo '<h5>Sinopsis</h5>';
+          echo $descripcion; 
+          ?>
         </div>
       </div>
     </div>
