@@ -50,43 +50,53 @@ ini_set("display_errors", 1);
   
 $color = color_genero($genero);
     ?>
-<div class="col-lg-4 mb-4">   
+<div class="site-section bg-light">
+    <div class="container">
+      <div class="row align-items-stretch retro-layout-2">
+        <div class="col-lg-12">
+          <div class="entry2">
+            <h2><a href="single.html"><?php echo $nom?></a><span class="post-category text-white <?php echo $color ?> mb-3"> <?php echo $genero ?></span></h2>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-3">   
 
             <div class="entry2">
-              <h2><a href="single.html"><?php echo $nom?></a></h2>
-              <a href=""><img src="<?php echo $img?>"></a>
+              
+              <a href=""><img class="img-ficha" src="<?php echo $img?>"></a>
         
 
-            <div class="excerpt">
-                 <span class="post-category text-white <?php echo $color ?> mb-3"> <?php echo $genero ?></span>
+              <div class="excerpt">
+                 
            
 
-              <div class="post-meta align-items-center text-left clearfix">
+                <div class="post-meta align-items-center text-left clearfix">
               
-               <span class="d-inline-block mt-1"></a></span>
-              </div>
-               <p><?php echo $descripcion ?></p> 
-                <?php  $stm = $db->prepare("SELECT * FROM episodios where uuid like ?");
-                  $uuid= $uuid."%";
-                  $stm->bindParam(1, $uuid);
-                  $res = $stm->execute();
-                
-                  while ($row = $res->fetchArray()) {
-                    $nom = $row['nom'];
-                    $uuid = $row['uuid']; 
-                    $num = $row['num'];
-                    $url = $row['url'];
-                   
-               echo  $num.' '.  $nom.' '. ' <a href="'.$url.'" target = "_blank"> ver episodio </a> <br>'; 
-                   
-                 }
-                ?>
-
+                  <span class="d-inline-block mt-1"></a></span>
+                </div>
               </div>
             </div>
-          </div>
+        </div>
+        <div class="col-lg-5 mb-5 descripcion">
+            <p><?php echo $descripcion ?></p> 
+            <?php  $stm = $db->prepare("SELECT * FROM episodios where uuid like ?");
+              $uuid= $uuid."%";
+              $stm->bindParam(1, $uuid);
+              $res = $stm->execute();
+            
+              while ($row = $res->fetchArray()) {
+                $nom = $row['nom'];
+                $uuid = $row['uuid']; 
+                $num = $row['num'];
+                $url = $row['url'];
+                
+            echo  $num.' '.  $nom.' '. ' <a href="'.$url.'" target = "_blank"> ver episodio </a> <br>'; 
+                
+              }
+            ?>
 
-</div>
+        </div>
+      </div>
+    </div>
 </div>
 
 
