@@ -4,7 +4,7 @@
 <title>Ficha animes</title>
 <?php include "includes/utils.php"?>
 </head>
-<body>
+<body id="llistat">
 <?php include "includes/navbar.php"?>
 <?php
 

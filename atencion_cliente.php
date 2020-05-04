@@ -89,7 +89,7 @@
            
 
               <p class="mb-0 font-weight-bold">Telefono</p>
-              <p class="mb-4"><a href="#">971794613</a></p>
+              <p class="mb-4"><a href="#">97179461398</a></p>
 
               <p class="mb-0 font-weight-bold">Correo electronico</p>
               <p class="mb-0"><a href="#">Adjon@gmail.com</a></p>

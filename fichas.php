@@ -76,8 +76,8 @@ $color = color_genero($genero);
                   $num = $row['num'];
                   $url = $row['url'];
                 
-                  echo  $num.' '.  $nom.' '. ' <input class="boton" type="submit" name="grabar" value =""><a href="'.$url.'" target = "_blank"></a> <br>'; 
-                
+                  
+                  echo $num.' '.  $nom.' '. ' <a href="'.$url.'" target = "_blank"> <img class="img-play" src="images/play.png"></a> <br>';
                 }
                 ?>
               </div>
@@ -97,6 +97,7 @@ $color = color_genero($genero);
           echo '<h5>Sinopsis</h5>';
           echo $descripcion; 
           ?>
+          
         </div>
       </div>
     </div>

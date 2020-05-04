@@ -5,7 +5,7 @@
 <?php include "includes/navbar.php"?>
 <?php include "includes/utils.php"?>
 </head>
-<body>
+<body id="llistat">
 <?php
 /* Activamos los flags para que nos muestre los errores.
 Este código no debería ir en producción */
@@ -45,7 +45,7 @@ if (isset($_GET['genero'])){
      
     
           <div class="col-lg-4 mb-4">
-            <div class="entry2">
+            <div class="entry2 zoom">
                   <a href="fichas.php?id=<?php echo $uuid ?>"><img src="<?php echo $img?>" alt="Image" class="img-fluid rounded"></a>
                   <div class="excerpt">
                     <span class="post-category text-white <?php echo $color ?> mb-3"><?php echo $genero ?></span>
