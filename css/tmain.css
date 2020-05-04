@@ -1,0 +1,42 @@
+
+#llistat img:hover {
+   -webkit-transform:scale(1.1);transform:scale(1.1);
+   -webkit-transition: 0.1s linear;
+   transition: 0.1s linear;
+  } 
+  .zoom {overflow:hidden;}
+  
+ 
+a:hover.filtro{
+    -webkit-transform:scale(1.2);transform:scale(1.2); 
+    -webkit-transition: 0.1s linear;
+    transition: 0.1s linear;
+  }
+
+ 
+
+    .top{
+   text-align:center;
+  }
+.site-section {
+  padding: 2.5em 0; }
+  @media (min-width: 768px) {
+    .site-section {
+      padding: 10px; } }
+  .site-section.site-section-sm {
+    padding: 4em 0; }
+
+    .descripcion{
+      margin-top: -45px;
+    }
+    .img-ficha{
+      max-width: 300px;
+    }
+    
+    
+   .img-play{
+
+    max-width: 30px;
+    margin-top: 10px;
+    margin-bottom: 11px;
+   }
