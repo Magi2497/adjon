@@ -5,7 +5,7 @@
 <?php include "includes/navbar.php"?>
 
 </head>
-<body>
+<body id="llistat">
 <?php
 /* Activamos los flags para que nos muestre los errores.
 Este código no debería ir en producción */
