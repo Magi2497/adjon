@@ -18,7 +18,9 @@ ini_set("display_errors", 1);
           <div class="col-12">
           </div>
         </div>
+        <h2 class= "top">TOP DE LA SEMANA </h2>
         <div class="row">
+        
 <?php
   $db = new Sqlite3('animes.db');
   $stm = $db->prepare("SELECT * FROM animes where Estado='top'");
@@ -39,11 +41,14 @@ ini_set("display_errors", 1);
   ?>  
      
           <div class="col-lg-4 mb-4">
-            <div class="entry2">
-                  <a href="fichas.php?id=<?php echo $uuid ?>"><img src="<?php echo $img?>" alt="Image" class="img-fluid rounded"></a>
+            <div class="entry2 zoom">
+              <div class="image-box">
+                  <a href="fichas.php?id=<?php echo $uuid ?>"><img src="<?php echo $img?>" alt="Image" class="img-fluid rounded"  ></a>
+              </div>  
                   <div class="excerpt">
+                    <div >
                     <span class="post-category text-white <?php echo $color?> mb-3"><?php echo $genero ?></span>
-
+                   </div>
                     <h2><a><?php echo $nom ?></a></h2>
                   <div class="post-meta align-items-center text-left clearfix">
 

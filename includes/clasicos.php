@@ -1,7 +1,9 @@
-<div class="site-section bg-light">
+ <h2 class= "top">ANIMES CLASICOS</h2>
+ <div id="llistat" class="site-section ">
     <div class="container">
-      <div class="row align-items-stretch retro-layout-2">
-  
+    
+      <div class="row align-items-stretch retro-layout-2 ">
+     
   <?php
     $db = new Sqlite3('animes.db');
     $stm = $db->prepare("SELECT * FROM animes where Estado='clasico' limit 5");
@@ -45,11 +47,14 @@
        $color = color_genero($genero);
 
   ?>
+  
     <?php if ($col != ""){
-      echo "<div class=".'"'.$col.'"'.">\n";
+      echo "<div class=".'"'.$col.' zoom"'.">\n";
     }
     ?>
-      <a href="fichas.php?id=<?php echo $uuid ?>" class="<?php echo $class ?>" style="background-image: url('<?php echo $img ?>');">
+    
+      <a href="fichas.php?id=<?php echo $uuid ?>"  class="<?php echo $class ?> filtro" style="background-image: url('<?php echo $img ?>');"> 
+   
                 
         <div class="text">
           <div class="post-categories mb-3">

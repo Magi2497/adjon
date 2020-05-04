@@ -13,11 +13,13 @@
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/aos.css">
-
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tmain.css?202004221946">
+    <style> 
+</style>
   </head>
   <body>
-  
+  <div class="container">
   <div class="site-wrap">
 
     <div class="site-mobile-menu">
@@ -35,7 +37,7 @@
           
           <div class="col-12 search-form-wrap js-search-form">
             <form method="get" action="cercador.php?q=">
-              <input type="text" name = "q" id="d" class="form-control" placeholder="Search...">
+              <input type="text" name = "q" id="d" class="form-control right" placeholder="Buscar...">
               <button class="search-btn" type="submit"><span class="icon-search"></span></button>
             </form>
           </div>
@@ -63,3 +65,4 @@
           </div>
 
       </div>
+    </div>
