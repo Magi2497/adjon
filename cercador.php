@@ -13,7 +13,7 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
 ?>
-<?php include "includes/utils.php"?>
+
 <div class="site-section">
       <div class="container">
         <div class="row mb-5">
@@ -45,6 +45,30 @@ if (isset($_GET['q'])){
      $genero = $row['genero']; 
      $descripcion = $row['descripcion'];
      $img = $row['img'];
+          if ($genero == 'isekai'){
+
+        $color =  'bg-success';
+        }
+
+     elseif ($genero == 'seinen'){
+
+        $color =  'bg-danger';
+        }
+
+     elseif ($genero == 'drama'){
+
+        $color =  'bg-secondary';
+        }
+
+     elseif ($genero == 'shonen'){
+
+        $color =  'bg-primary';
+        }
+
+     else{
+
+        $color =  'bg-warning';
+        }
 ?>
      
     
